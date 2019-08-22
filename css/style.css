@@ -11,7 +11,7 @@ main {
   height: 538px;
   /* background-color: aqua; */
   /* background-image: url("/img/your_verse_hero.jpg"); */
-  background: #c3ddf3 url("/img/your_verse_hero.jpg") 0 100% no-repeat;
+  background: #c3ddf3 url("img/your_verse_hero.jpg") 0 100% no-repeat;
   background-size: cover;
 }
 
