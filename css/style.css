@@ -1,3 +1,46 @@
 * {
-  background-color: gray;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* justify-items: first baseline; */
+  align-items: center;
+  height: 538px;
+  /* background-color: aqua; */
+  /* background-image: url("/img/your_verse_hero.jpg"); */
+  background: #c3ddf3 url("/img/your_verse_hero.jpg") 0 100% no-repeat;
+  background-size: cover;
+}
+
+main:only-child a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  color: white;
+}
+
+#top-menu {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  background: gray;
+  border-radius: 4px;
+  box-shadow: 12px;
+  width: 980px;
+  height: 36px;
+}
+
+#top-menu img {
+  height: 15px;
+  /* width: 40px; */
+  vertical-align: top;
+}
+
+section {
+  display: flex;
+  flex-wrap: nowrap;
 }
