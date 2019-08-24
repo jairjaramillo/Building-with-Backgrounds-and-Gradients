@@ -28,7 +28,7 @@ header nav {
   border-width: 1px;
   border-color: #7c7c7c;
   border-bottom-color: #545454;
-  box-shadow: 0 0 4px #747474;
+  box-shadow: 0 0 2px 0 #747474;
 }
 
 header nav a,
@@ -43,14 +43,6 @@ header nav div {
   box-shadow: -.5px 0 0 0 #898989, 2px 0 0 0 #898989;
 }
 
-header nav img {
-  height: 15px;
-}
-
-header nav div {
-  padding: 7px 10px 0 20px;
-}
-
 #logo {
   padding-top: 5px;
   border-left-style: hidden;
@@ -59,6 +51,15 @@ header nav div {
 
 #logo img {
   height: 22px;
+}
+
+header nav img {
+  height: 15px;
+}
+
+header nav div {
+  padding: 7px 10px 0 20px;
+  box-shadow: -.5px 0 0 0 #898989;
 }
 
 #support img {
