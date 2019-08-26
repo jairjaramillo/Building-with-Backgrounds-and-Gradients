@@ -69,7 +69,7 @@ header nav div {
   border-left-style: solid;
   border-color: #5b5b5b;
   border-width: 1px;
-  box-shadow: -.5px 0 0 #898989, 2px 0 0 #898989;
+  box-shadow: -.5px 0 0 0 #898989, 2px 0 0 0 #898989;
 }
 
 footer a:hover {
@@ -90,7 +90,7 @@ header nav img {
 
 header nav div {
   padding: 7px 10px 0 20px;
-  box-shadow: -.5px 0 0 #898989;
+  box-shadow: -.5px 0 0 0 #898989;
 }
 
 header input {
@@ -103,7 +103,7 @@ header input {
   border-radius: 100px;
   border-style: solid;
   border-color: #808080;
-  box-shadow: 0 -1px 0 #3f3f3f;
+  box-shadow: 0 -1px 0 0 #3f3f3f;
   color: #fff;
   font-size: .9rem;
   text-indent: 20px;
@@ -156,7 +156,7 @@ footer nav a:first-child {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  text-shadow: 0 0 1.5px #fff;
+  text-shadow: 0 0 1.5px 0 #fff;
 }
 
 .header-text h1 {
