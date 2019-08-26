@@ -120,19 +120,21 @@ main img {
   width: 100%;
 }
 
+/* #region footer */
+
 footer {
   display: flex;
   flex-wrap: wrap;
-  padding: 30px 10%;
-  font-size: .6rem;
+  padding: 20px 10%;
+  font-size: .7rem;
 }
 
 footer div,
 footer nav {
-  display: inline-block;
   order: 1;
   width: 50%;
   height: 30px;
+  line-height: 30px;
 }
 
 footer a {
@@ -148,7 +150,8 @@ footer nav {
   text-align: right;
 }
 
-footer nav a {
+footer nav a,
+#privacy {
   padding: 0 5px;
   border-left-style: solid;
   border-color: rgb(201, 201, 201);
@@ -160,5 +163,11 @@ footer nav a:first-child {
 }
 
 footer img {
-  vertical-align: text-top;
+  vertical-align: sub;
 }
+
+#terms {
+  padding-right: 5px;
+}
+
+/* #endregion */
