@@ -10,7 +10,7 @@ header {
   align-items: center;
   justify-content: space-around;
   height: 538px;
-  background: rgba(195, 221, 243, 1.0) url("your_verse_hero.jpg") 0 100% no-repeat;
+  background: #c3ddf3 url("your_verse_hero.jpg") 0 100% no-repeat;
   background-size: cover;
 }
 
@@ -24,7 +24,7 @@ header nav {
   width: 980px;
   width: 80%;
   height: 36px;
-  background-image: linear-gradient(#8c8c8c, #707070 50%, #5f5f5f 50%, #777777);
+  background-image: linear-gradient(#8c8c8c, #707070 50%, #5f5f5f 50%, #777);
   border-radius: 4px;
   border-style: solid;
   border-width: 1px;
@@ -42,22 +42,11 @@ header nav div {
   border-left-style: solid;
   border-color: #5b5b5b;
   border-width: 1px;
-  box-shadow: -.5px 0 0 0 #898989, 2px 0 0 0 #898989;
+  box-shadow: -.5px 0 #898989, 2px 0 #898989;
 }
 
 header nav a:hover {
   background-image: radial-gradient(#303030, #727272);
-  /* box-shadow: 0 0 4px -5px #363636; */
-}
-
-#logo {
-  padding-top: 5px;
-  border-left-style: hidden;
-  box-shadow: 0 0 0 0;
-}
-
-#logo img {
-  height: 22px;
 }
 
 header nav img {
@@ -66,11 +55,7 @@ header nav img {
 
 header nav div {
   padding: 7px 10px 0 20px;
-  box-shadow: -.5px 0 0 0 #898989;
-}
-
-#support img {
-  height: 18px;
+  box-shadow: -.5px 0 #898989;
 }
 
 header input {
@@ -83,7 +68,7 @@ header input {
   border-radius: 100px;
   border-style: solid;
   border-color: #808080;
-  box-shadow: 0 -1px 0 0 #3f3f3f;
+  box-shadow: 0 -1px #3f3f3f;
   color: #fff;
   font-size: .9rem;
   text-indent: 20px;
@@ -94,7 +79,7 @@ header input:focus {
   width: 200px;
   background: url("search2.png") 5px 50% no-repeat;
   background-size: 10px;
-  background-color: #ffffff;
+  background-color: #fff;
   outline: none;
   color: rgb(41, 41, 41);
 }
@@ -112,10 +97,10 @@ header input::slotted {
   width: 100%;
   font-size: 2rem;
   font-weight: 100;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
   text-decoration: none;
-  text-shadow: 0 0 1.5px #ffffff;
+  text-shadow: 0 0 1.5px #fff;
 }
 
 .header-text h1 {
@@ -174,7 +159,7 @@ footer nav {
 
 footer a {
   text-decoration: solid;
-  color: #0088cc;
+  color: #08c;
 }
 
 footer a:hover {
@@ -185,7 +170,7 @@ footer nav a,
 #privacy {
   padding-left: 5px;
   border-left-style: solid;
-  border-color: rgb(201, 201, 201);
+  border-color: #c9c9c9;
   border-width: 1px;
 }
 
@@ -202,3 +187,17 @@ footer img {
 }
 
 /* #endregion */
+
+#logo {
+  padding-top: 5px;
+  border-left-style: hidden;
+  box-shadow: 0 0 0 0;
+}
+
+#logo img {
+  height: 22px;
+}
+
+#support img {
+  height: 18px;
+}
