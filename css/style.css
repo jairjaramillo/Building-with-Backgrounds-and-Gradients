@@ -31,6 +31,39 @@ header nav {
   box-shadow: 0 0 2px 0 #747474;
 }
 
+main a {
+  width: 100%;
+}
+
+main img {
+  width: 100%;
+}
+
+footer div,
+footer nav {
+  order: 1;
+  width: 50%;
+  height: 30px;
+  line-height: 30px;
+}
+
+footer a {
+  text-decoration: solid;
+  color: #08c;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer nav a,
+#privacy {
+  padding-left: 5px;
+  border-left-style: solid;
+  border-color: #c9c9c9;
+  border-width: 1px;
+}
+
 header nav a,
 header nav div {
   width: 100%;
@@ -45,6 +78,10 @@ header nav div {
 
 header nav a:hover {
   background-image: radial-gradient(#303030, #727272);
+}
+
+footer img {
+  vertical-align: sub;
 }
 
 header nav img {
@@ -92,14 +129,6 @@ main {
   justify-content: space-between;
 }
 
-main a {
-  width: 100%;
-}
-
-main img {
-  width: 100%;
-}
-
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -107,45 +136,16 @@ footer {
   font-size: .7rem;
 }
 
-footer div,
-footer nav {
-  order: 1;
-  width: 50%;
-  height: 30px;
-  line-height: 30px;
-}
-
 footer nav {
   text-align: right;
-}
-
-footer a {
-  text-decoration: solid;
-  color: #08c;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
 
 footer nav a:first-child {
   border-style: none;
 }
 
-footer img {
-  vertical-align: sub;
-}
-
 #terms {
   padding-right: 5px;
-}
-
-footer nav a,
-#privacy {
-  padding-left: 5px;
-  border-left-style: solid;
-  border-color: #c9c9c9;
-  border-width: 1px;
 }
 
 .header-text {
