@@ -14,6 +14,8 @@ header {
   background-size: cover;
 }
 
+/* #region header navigation bar */
+
 header nav {
   display: flex;
   flex-wrap: nowrap;
@@ -68,7 +70,6 @@ header nav div {
 
 header input {
   display: inline-block;
-  padding-top: 10px;
   height: 20px;
   width: 100px;
   background: #8a888827 url("search.png") 5px 50% no-repeat;
@@ -78,9 +79,18 @@ header input {
   border-color: gray;
   box-shadow: 0 -1px 0 0 #3f3f3f;
   color: #fff;
-  font-size: .5rem;
+  font-size: .9rem;
   text-align: end;
+  line-height: 4px;
 }
+
+header input::slotted {
+  vertical-align: middle;
+}
+
+/* #endregion */
+
+/* #region header big picture */
 
 .header-text {
   padding-bottom: 40px;
@@ -106,6 +116,10 @@ header input {
   text-decoration: underline;
 }
 
+/* #endregion */
+
+/* #region main */
+
 main {
   display: flex;
   flex-wrap: nowrap;
@@ -119,6 +133,8 @@ main a {
 main img {
   width: 100%;
 }
+
+/* #endregion */
 
 /* #region footer */
 
@@ -137,6 +153,10 @@ footer nav {
   line-height: 30px;
 }
 
+footer nav {
+  text-align: right;
+}
+
 footer a {
   text-decoration: solid;
   color: #0088cc;
@@ -144,10 +164,6 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
-}
-
-footer nav {
-  text-align: right;
 }
 
 footer nav a,
