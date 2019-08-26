@@ -119,3 +119,46 @@ main a {
 main img {
   width: 100%;
 }
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 10%;
+  font-size: .6rem;
+}
+
+footer div,
+footer nav {
+  display: inline-block;
+  order: 1;
+  width: 50%;
+  height: 30px;
+}
+
+footer a {
+  text-decoration: solid;
+  color: #0088cc;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer nav {
+  text-align: right;
+}
+
+footer nav a {
+  padding: 0 5px;
+  border-left-style: solid;
+  border-color: rgb(201, 201, 201);
+  border-width: 1px;
+}
+
+footer nav a:first-child {
+  border-style: none;
+}
+
+footer img {
+  vertical-align: text-top;
+}
